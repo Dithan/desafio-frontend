@@ -1,39 +1,43 @@
-.vitrine {
+.vitrine-noticias {
   margin-top: 100px;
   margin-bottom: 100px;
 }
 
-.vitrine h1 {
+.vitrine-noticias h1 {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 50px;
 }
 
-.imoveis {
+.lista-cards {
   display: flex;
   justify-content: space-between;
   gap: 50px;
 }
 
-.imovel {
+.card {
+  width: 325px;
   text-align: center;
   border-radius: 50px;
   box-shadow: 20px 20px 50px -30px rgba(0, 0, 0, 0.5);
 }
 
-.imovel picture img {
+.card picture img {
+  width: 325px;
+  height: 200px;
   border-radius: 50px 50px 0px 0px;
 }
 
-.imovel h2 {
+.card h2 {
   margin: 15px 0px 5px 0px;
 }
 
-.imovel p {
+.card p {
   color: var(--cinza-3);
+  padding: 0 20px;
 }
 
-.imovel .detalhes {
+.card .detalhes {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 20px auto 0px auto;
@@ -57,7 +61,7 @@
   justify-self: center;
 }
 
-.imovel a {
+.card a {
   display: inline-block;
   font-weight: bold;
   padding: 7px 80px;
@@ -67,16 +71,16 @@
   margin: 20px 0px;
 }
 
-.imovel a:hover {
+.card a:hover {
   background: var(--button-hover);
 }
 
 @media (max-width: 1024px) {
-  .imovel h2 {
+  .card h2 {
     font-size: 1.25rem;
   }
 
-  .imovel a {
+  .card a {
     padding: 7px 40px;
   }
 
@@ -88,40 +92,44 @@
 }
 
 @media (max-width: 880px) {
-  .imovel {
+  .card,
+  .card picture img {
     width: 300px;
   }
 
-  .imovel picture img {
-    width: 300px;
-  }
-
-  .imoveis {
+  .lista-cards {
     overflow-x: auto;
     gap: 50px;
   }
 
-  .imoveis li {
+  .lista-cards li {
     margin-bottom: 50px;
   }
 
-  .imoveis li:nth-last-child(1) {
+  .lista-cards li:nth-last-child(1) {
     margin-right: 50px;
   }
 }
 
 @media (max-width: 768px) {
-  .vitrine h1 {
+  .vitrine-noticias h1 {
     font-size: 1.5rem;
     margin-bottom: 25px;
   }
 
-  .vitrine {
+  .vitrine-noticias {
     margin-top: 50px;
     margin-bottom: 50px;
   }
 
-  .imoveis {
+  .lista-cards {
     gap: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card,
+  .card picture img {
+    width: 280px;
   }
 }
