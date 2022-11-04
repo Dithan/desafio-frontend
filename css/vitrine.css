@@ -1,0 +1,126 @@
+.vitrine {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.vitrine h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+.imoveis {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.imovel {
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 20px 20px 50px -30px rgba(0, 0, 0, 0.5);
+}
+
+.imovel picture img {
+  border-radius: 50px 50px 0px 0px;
+}
+
+.imovel h2 {
+  margin: 15px 0px 5px 0px;
+}
+
+.imovel p {
+  color: var(--cinza-3);
+}
+
+.imovel .detalhes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px auto 0px auto;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.quartos span img,
+.vagas span img,
+.area span img {
+  width: 28px;
+  justify-self: center;
+  margin: 0 auto;
+}
+
+.quartos p,
+.vagas p,
+.area p {
+  text-align: center;
+  justify-self: center;
+}
+
+.imovel a {
+  display: inline-block;
+  font-weight: bold;
+  padding: 7px 80px;
+  background: var(--button);
+  color: var(--cinza-0);
+  border-radius: 50px;
+  margin: 20px 0px;
+}
+
+.imovel a:hover {
+  background: var(--button-hover);
+}
+
+@media (max-width: 1024px) {
+  .imovel h2 {
+    font-size: 1.25rem;
+  }
+
+  .imovel a {
+    padding: 7px 40px;
+  }
+
+  .quartos span img,
+  .vagas span img,
+  .area span img {
+    width: 24px;
+  }
+}
+
+@media (max-width: 880px) {
+  .imovel {
+    width: 300px;
+  }
+
+  .imovel picture img {
+    width: 300px;
+  }
+
+  .imoveis {
+    overflow-x: auto;
+    gap: 50px;
+  }
+
+  .imoveis li {
+    margin-bottom: 50px;
+  }
+
+  .imoveis li:nth-last-child(1) {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .vitrine h1 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+  }
+
+  .vitrine {
+    margin-top: 50px;
+  }
+
+  .imoveis {
+    gap: 30px;
+  }
+}

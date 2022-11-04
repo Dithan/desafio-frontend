@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M32 32c17.7 0 32 14.3 32 32V320H288V160c0-17.7 14.3-32 32-32H544c53 0 96 43 96 96V448c0 17.7-14.3 32-32 32s-32-14.3-32-32V416H352 320 64v32c0 17.7-14.3 32-32 32s-32-14.3-32-32V64C0 46.3 14.3 32 32 32zM176 288c-44.2 0-80-35.8-80-80s35.8-80 80-80s80 35.8 80 80s-35.8 80-80 80z"/></svg>
+<svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_6_79)">
+<path d="M1.98919 2C3.08946 2 3.97838 2.89375 3.97838 4V20H17.9027V10C17.9027 8.89375 18.7916 8 19.8919 8H33.8162C37.1108 8 39.7838 10.6875 39.7838 14V28C39.7838 29.1063 38.8949 30 37.7946 30C36.6943 30 35.8054 29.1063 35.8054 28V26H21.8811H19.8919H3.97838V28C3.97838 29.1063 3.08946 30 1.98919 30C0.888919 30 0 29.1063 0 28V4C0 2.89375 0.888919 2 1.98919 2ZM10.9405 18C8.19297 18 5.96757 15.7625 5.96757 13C5.96757 10.2375 8.19297 8 10.9405 8C13.6881 8 15.9135 10.2375 15.9135 13C15.9135 15.7625 13.6881 18 10.9405 18Z" fill="url(#paint0_linear_6_79)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_6_79" x1="19.8919" y1="2" x2="19.8919" y2="30" gradientUnits="userSpaceOnUse">
+<stop stop-color="#99C12A"/>
+<stop offset="1" stop-color="#3EB13A"/>
+</linearGradient>
+<clipPath id="clip0_6_79">
+<rect width="39.7838" height="32" fill="white"/>
+</clipPath>
+</defs>
+</svg>

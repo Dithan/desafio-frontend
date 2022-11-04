@@ -55,4 +55,8 @@
   .banner picture img {
     border-radius: 25px;
   }
+
+  .banner picture img{
+    height: 200px;
+  }
 }
