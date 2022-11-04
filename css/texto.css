@@ -23,6 +23,10 @@
   color: var(--cinza-0);
 }
 
+.texto a:hover{
+  background: var(--button-hover);
+}
+
 .texto p{
   font-size: 1.25rem;
 }
@@ -46,6 +50,10 @@
 }
 
 @media(max-width: 768px){
+  .texto-bg{
+    margin-bottom: 50px;
+  }
+
   .texto p, .texto a{
     font-size: 1rem;
   }

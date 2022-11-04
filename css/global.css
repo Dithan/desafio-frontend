@@ -25,3 +25,16 @@ img{
   margin-right: auto;
   margin-left: auto;
 }
+
+.titulo-1{
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .titulo-1 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+  }
+}
