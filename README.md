@@ -4,6 +4,8 @@ FORK - Esta foi a primeira vez que tive que utilizar o Fork, porém já tinha um
 
 API - Ainda não tinha tido contato com APIs dessa forma, no máximo a do Whatsapp, mas direto no HTML. Então avancei umas aulas em um dos meus cursos de JS, porém não obtive muito sucesso, pesquisando no youtube achei um tutorial bem explicado, entendi a lógica e consegui executar com exito. Expero que nos próximos projetos da Inforce consiga trabalhar mais com APIs, foi um bom desafio !
 
+Carrossel Banner - Sem dúvidas o que deu mais trabalho, não conseguia fazer responsivo para mobile, porém depois de tentar diversos metodos pesquisados, consegui combinar esses metodos e faze-lo.
+
 # Inforce: Desafio para Frontend Developer
 
 Este documento descreve o desafio que será utilizado para avaliar os candidatos à vagas de frontend na Inforce. Caso você tenha chegado aqui por acaso, sinta-se à vontade em realizar o teste, e logo após, contar um pouco mais sobre você através do formulário de RH do nosso site (http://inforce.com.br/rh).

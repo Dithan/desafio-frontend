@@ -7,6 +7,15 @@
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  overflow-x: auto;
+}
+
+.lista-cards li {
+  margin-bottom: 50px;
+}
+
+.lista-cards li:nth-last-child(1) {
+  margin-right: 50px;
 }
 
 .card {
@@ -71,17 +80,10 @@
 
 @media (max-width: 1125px) {
   .lista-cards {
-    overflow-x: auto;
     gap: 50px;
   }
 
-  .lista-cards li {
-    margin-bottom: 50px;
-  }
-
-  .lista-cards li:nth-last-child(1) {
-    margin-right: 50px;
-  }
+  
 
   .card h2 {
     font-size: 1.25rem;
