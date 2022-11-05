@@ -1,54 +1,16 @@
+# Como abrir o arquivo de forma Local
+  1 - Baixe o arquivo .zip (https://github.com/Dithan/desafio-frontend/archive/refs/heads/master.zip)
+  2 - Localize e descompacte o arquivo (botão direito do mouse > Extrair aqui)
+  3 - Abra a pasta 'desafio-frontend-master'  e inicie o arquivo 'Index.HTML'
+
 ## Dificuldades técnicas encontradas na realização
 
-FORK - Esta foi a primeira vez que tive que utilizar o Fork, porém já tinha uma ideia do que era, após poucos minutos consegui criá-lo.
+**FORK** - Esta foi a primeira vez que tive que utilizar o Fork, porém já tinha uma ideia do que era, após poucos minutos consegui criá-lo.
 
-API - Ainda não tinha tido contato com APIs dessa forma, no máximo a do Whatsapp, mas direto no HTML. Então avancei umas aulas em um dos meus cursos de JS, porém não obtive muito sucesso, pesquisando no youtube achei um tutorial bem explicado, entendi a lógica e consegui executar com exito. Expero que nos próximos projetos da Inforce consiga trabalhar mais com APIs, foi um bom desafio !
+**API** - Ainda não tinha tido contato com APIs dessa forma, no máximo a do Whatsapp, mas direto no HTML. Então avancei umas aulas em um dos meus cursos de JS, porém não obtive muito sucesso, pesquisando no youtube achei um tutorial bem explicado, entendi a lógica e consegui executar com exito. Expero que nos próximos projetos da Inforce consiga trabalhar mais com APIs, foi um bom desafio !
 
-Carrossel Banner - Sem dúvidas o que deu mais trabalho, não conseguia fazer responsivo para mobile, porém depois de tentar diversos metodos pesquisados, consegui combinar esses metodos e faze-lo.
+**Carrossel Banner** - Sem dúvidas o que deu mais trabalho, não conseguia fazer responsivo para mobile, porém depois de tentar diversos metodos pesquisados, consegui combinar esses metodos e faze-lo.
 
-# Inforce: Desafio para Frontend Developer
+## Agradecimentos
 
-Este documento descreve o desafio que será utilizado para avaliar os candidatos à vagas de frontend na Inforce. Caso você tenha chegado aqui por acaso, sinta-se à vontade em realizar o teste, e logo após, contar um pouco mais sobre você através do formulário de RH do nosso site (http://inforce.com.br/rh).
-
-O desafio abaixo é utilizado para as vagas de frontend UX / UI e para as vagas de Frontend Javascript Developer. Embora cada um desses profissionais tenham características diferentes, gostaríamos de saber como você trabalha com a base tecnológica da stack do front (html, css e javascript).
-
-## O desafio:
-
-O nosso cliente "Imobiliária Inforce" solicitou a criação de um novo site para a empresa e precisa ter um profissional especialista para realizar esta tarefa. Para ajudar o desenvolvedor nesse trabalho, disponibilizamos algumas APIs com as informações necessárias para o desenvolvimento do site e um WIREFRAME com o modelo de como nosso cliente (“Imobiliária Inforce”) quer o site dele.
-
-Deixamos a estilização do site a cargo do candidato, queremos que nos surpreenda com o melhor visual que conseguir. O WIREFRAME que enviamos serve como modelo, para entender quais componentes DEVEM constar no site, mas a parte de estilo depende da sua criatividade.
-
-**APIs para o desafio**:
-
-- Banners: https://labs.inforcedata.com.br/desafio-frontend/banners.json
-- Vitrine de Imóveis: https://labs.inforcedata.com.br/desafio-frontend/vitrines.json
-- Notícias: https://labs.inforcedata.com.br/desafio-frontend/noticias.json
-- Cloud Tags: https://labs.inforcedata.com.br/desafio-frontend/cloudtags.json
-
-**Imagens**:
-
-- Logo Topo: https://labs.inforcedata.com.br/desafio-frontend/logos/logo_topo.png
-- Logo Footer: https://labs.inforcedata.com.br/desafio-frontend/logos/logo_footer.png
-
-**Wireframe**:
-
-- https://labs.inforcedata.com.br/desafio-frontend/wireframe/wireframe.png
-
-## O que será avaliado:
-
-- **Organização do código**: Como você organiza os arquivos que compõem a solução;
-- **Estruturação do código**: Como você estrutura o código dos seus componentes (essa análise será aplicada para todas as tecnologias que compõem a solução);
-- **Criatividade/Inovação**: Capacidade de sugerir mudanças e melhorias no wireframe que foi apresentado;
-- **Integração**: Conhecimento de integrações via API utilizando javascript;
-- **Utilização do Git**: O readme do repositório e a descrição dos commit deverão ser claros e de fácil entendimento;
-
-## Requisitos Técnicos
-
-- Utilizar HTML 5 e CSS 3 Puro, ou seja, não utilizar nenhum framework HTML ou CSS;
-- É permitido usar apenas mini libs Javascript, que não dependam do JQUERY;
-- Utilizar melhores práticas de desenvolvimento para organização do projeto;
-- Criar instruções para rodar esse projeto de forma local
-
-## Entrega:
-
-O candidato deverá criar um fork deste projeto, e a partir deste fork, realizar o desenvolvimento. Favor utilizar o "Readme" do seu fork para descrever as dificuldades técnicas encontradas, como você as superou e, principalmente, como subir o projeto. Ao finalizar, você deverá responder ao e-mail que te enviou esse desafio, com o link do seu fork.
+Foi um prazer participar deste desafio com a Inforce, pude aprender novas habilidades e continuar desenvolvendo as que já possuia. Estou muito ansioso para fazer parte do time e concluir novos desafios. Espero poder encontrar vocês na próxima etapa. :)
