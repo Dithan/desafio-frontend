@@ -213,3 +213,69 @@ fetch('https://labs.inforcedata.com.br/desafio-frontend/vitrines.json')
     let metragemImovel5 = document.getElementById('metragem5');
     metragemImovel5.innerHTML = `<i>${metragem5}m²</i>`;
   });
+
+fetch(' https://labs.inforcedata.com.br/desafio-frontend/noticias.json')
+  .then((resposta) => {
+    return resposta.json();
+  })
+  .then((corpo) => {
+    //NOTÍCIA 0
+
+    let capaNoticia0 = corpo[0].capa;
+    let tituloNoticia0 = corpo[0].titulo;
+    let sumarioNoticia0 = corpo[0].sumario;
+
+    let imgNoticia0 = document.getElementById('capa-noticia0');
+    imgNoticia0.setAttribute('src', capaNoticia0);
+
+    let tituloN0 = document.getElementById('titulo0');
+    tituloN0.innerHTML = `<i>${tituloNoticia0}</i>`;
+
+    let sumarioN0 = document.getElementById('sumario0');
+    sumarioN0.innerHTML = `<i>${sumarioNoticia0}</i>`;
+
+    //NOTÍCIA 1
+
+    let capaNoticia1 = corpo[1].capa;
+    let tituloNoticia1 = corpo[1].titulo;
+    let sumarioNoticia1 = corpo[1].sumario;
+
+    let imgNoticia1 = document.getElementById('capa-noticia1');
+    imgNoticia1.setAttribute('src', capaNoticia1);
+
+    let tituloN1 = document.getElementById('titulo1');
+    tituloN1.innerHTML = `<i>${tituloNoticia1}</i>`;
+
+    let sumarioN1 = document.getElementById('sumario1');
+    sumarioN1.innerHTML = `<i>${sumarioNoticia1}</i>`;
+
+    //NOTÍCIA 2
+
+    let capaNoticia2 = corpo[2].capa;
+    let tituloNoticia2 = corpo[2].titulo;
+    let sumarioNoticia2 = corpo[2].sumario;
+
+    let imgNoticia2 = document.getElementById('capa-noticia2');
+    imgNoticia2.setAttribute('src', capaNoticia2);
+
+    let tituloN2 = document.getElementById('titulo2');
+    tituloN2.innerHTML = `<i>${tituloNoticia2}</i>`;
+
+    let sumarioN2 = document.getElementById('sumario2');
+    sumarioN2.innerHTML = `<i>${sumarioNoticia2}</i>`;
+
+    //NOTÍCIA 3
+
+    let capaNoticia3 = corpo[3].capa;
+    let tituloNoticia3 = corpo[3].titulo;
+    let sumarioNoticia3 = corpo[3].sumario;
+
+    let imgNoticia3 = document.getElementById('capa-noticia3');
+    imgNoticia3.setAttribute('src', capaNoticia3);
+
+    let tituloN3 = document.getElementById('titulo3');
+    tituloN3.innerHTML = `<i>${tituloNoticia3}</i>`;
+
+    let sumarioN3 = document.getElementById('sumario3');
+    sumarioN3.innerHTML = `<i>${sumarioNoticia3}</i>`;
+  });

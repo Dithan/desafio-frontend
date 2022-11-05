@@ -78,12 +78,24 @@
   background: var(--button-hover);
 }
 
+.card-noticia {
+  display: grid;
+  gap: 5px;
+  grid-template-rows: auto 120px 100px auto;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.card-noticia h2 {
+  font-size: 1.25rem;
+  padding: 0px 5px;
+}
+
 @media (max-width: 1125px) {
   .lista-cards {
     gap: 50px;
   }
-
-  
 
   .card h2 {
     font-size: 1.25rem;
@@ -105,8 +117,6 @@
   .card picture img {
     width: 300px;
   }
-
-  
 }
 
 @media (max-width: 768px) {
