@@ -214,7 +214,9 @@ fetch('https://labs.inforcedata.com.br/desafio-frontend/vitrines.json')
     metragemImovel5.innerHTML = `<i>${metragem5}m²</i>`;
   });
 
-fetch(' https://labs.inforcedata.com.br/desafio-frontend/noticias.json')
+//API ULTIMAS NOTÍCIAS
+
+fetch('https://labs.inforcedata.com.br/desafio-frontend/noticias.json')
   .then((resposta) => {
     return resposta.json();
   })
@@ -278,4 +280,68 @@ fetch(' https://labs.inforcedata.com.br/desafio-frontend/noticias.json')
 
     let sumarioN3 = document.getElementById('sumario3');
     sumarioN3.innerHTML = `<i>${sumarioNoticia3}</i>`;
+  });
+
+//API MAIS ACESSADOS
+
+fetch('https://labs.inforcedata.com.br/desafio-frontend/cloudtags.json')
+  .then((resposta) => {
+    return resposta.json();
+  })
+  .then((corpo) => {
+    //MAIS ACESSADOS 0
+
+    let linkAcessados0 = corpo[0].link;
+    let tagAcessados0 = corpo[0].tag;
+
+    let tagA0 = document.getElementById('acessados0');
+    tagA0.innerHTML = `<i>${tagAcessados0}</i>`;
+
+    //MAIS ACESSADOS 1
+
+    let linkAcessados1 = corpo[1].link;
+    let tagAcessados1 = corpo[1].tag;
+
+    let tagA1 = document.getElementById('acessados1');
+    tagA1.innerHTML = `<i>${tagAcessados1}</i>`;
+
+    //MAIS ACESSADOS 2
+
+    let linkAcessados2 = corpo[2].link;
+    let tagAcessados2 = corpo[2].tag;
+
+    let tagA2 = document.getElementById('acessados2');
+    tagA2.innerHTML = `<i>${tagAcessados2}</i>`;
+
+    //MAIS ACESSADOS 3
+
+    let linkAcessados3 = corpo[3].link;
+    let tagAcessados3 = corpo[3].tag;
+
+    let tagA3 = document.getElementById('acessados3');
+    tagA3.innerHTML = `<i>${tagAcessados3}</i>`;
+
+    //MAIS ACESSADOS 4
+
+    let linkAcessados4 = corpo[4].link;
+    let tagAcessados4 = corpo[4].tag;
+
+    let tagA4 = document.getElementById('acessados4');
+    tagA4.innerHTML = `<i>${tagAcessados4}</i>`;
+
+    //MAIS ACESSADOS 5
+
+    let linkAcessados5 = corpo[5].link;
+    let tagAcessados5 = corpo[5].tag;
+
+    let tagA5 = document.getElementById('acessados5');
+    tagA5.innerHTML = `<i>${tagAcessados5}</i>`;
+
+    //MAIS ACESSADOS 6
+
+    let linkAcessados6 = corpo[6].link;
+    let tagAcessados6 = corpo[6].tag;
+
+    let tagA6 = document.getElementById('acessados6');
+    tagA6.innerHTML = `<i>${tagAcessados6}</i>`;
   });

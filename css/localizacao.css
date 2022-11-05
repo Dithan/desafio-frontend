@@ -1,10 +1,10 @@
-.localizacao{
+.localizacao {
   margin-bottom: 100px;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.mapa{
+.mapa {
   text-align: center;
   margin: 0 auto;
   display: block;
@@ -12,25 +12,24 @@
   height: 60vh;
 }
 
-.mapa iframe{
+.mapa iframe {
   width: 100%;
   height: 100%;
   border-radius: 50px;
 }
 
-@media(max-width: 768px){
-  .localizacao{
+@media (max-width: 768px) {
+  .localizacao {
     margin-bottom: 50px;
-
   }
 
-  .mapa{
+  .mapa {
     height: 40vh;
   }
 }
 
-@media(max-width: 425px){
-  .mapa{
+@media (max-width: 425px) {
+  .mapa {
     height: 30vh;
   }
 }

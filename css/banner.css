@@ -75,12 +75,12 @@
   background: var(--button-hover);
 }
 
-@media(max-width:768px){
-  .slide p{
+@media (max-width: 768px) {
+  .slide p {
     font-size: 1.5rem;
   }
 
-  .slide a{
+  .slide a {
     font-size: 1rem;
   }
 }

@@ -49,11 +49,11 @@ footer {
     font-size: 1rem;
   }
 
-  .container ul li + li{
+  .container ul li + li {
     margin-top: 5px;
   }
 
-  .container ul li{
+  .container ul li {
     padding: 5px;
   }
 }
