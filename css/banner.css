@@ -1,62 +1,86 @@
-.banner {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
+.carrosel {
+  height: 350px;
+  max-width: 1200px;
+  margin: 25px auto;
+  border-radius: 50px;
+  overflow-x: hidden;
   position: relative;
 }
 
-.banner picture {
-  max-width: 1200px;
-  max-height: 470px;
-  overflow-y: hidden;
-  border-radius: 50px;
+.slides {
+  display: flex;
+  width: 200%;
+  height: 100%;
 }
 
-.banner a {
-  background: var(--button);
-  padding: 10px 20px;
-  color: var(--cinza-0);
-  border-radius: 15px;
-  font-size: 1.25rem;
+.slide {
+  position: relative;
+  display: flex;
+  width: 50%;
+  animation: slide 20s infinite ease-out;
+}
+
+@keyframes slide {
+  0% {
+    left: 0%;
+  }
+
+  20% {
+    left: -50%;
+  }
+
+  50% {
+    left: -50%;
+  }
+
+  70% {
+    left: 0%;
+  }
+
+  100% {
+    left: 0%;
+  }
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.slide p {
+  position: absolute;
+  max-width: 18ch;
+  top: 25px;
+  margin-left: 0px;
+  font-size: 2.25rem;
   font-weight: bold;
+  color: var(--cinza-0);
+  padding: 10px 10px 10px 50px;
+  border-radius: 0 25px 25px 0;
+  background: #0606062d;
+}
+
+.slide a {
   position: absolute;
   bottom: 25px;
+  margin-left: 50px;
+  padding: 7px 20px;
+  font-size: 1.5rem;
+  background: var(--button);
+  border-radius: 15px;
+  color: var(--cinza-0);
 }
 
-.banner a:hover {
+.slide a:hover {
   background: var(--button-hover);
 }
 
-.banner picture img {
-  border-radius: 50px;
-}
+@media(max-width:768px){
+  .slide p{
+    font-size: 1.5rem;
+  }
 
-@media (max-width: 800px) {
-  .banner a {
+  .slide a{
     font-size: 1rem;
-    padding: 7px 14px;
-  }
-}
-
-@media (max-width: 600px) {
-  .banner {
-    margin-top: 25px;
-  }
-
-  .banner a {
-    font-size: 0.75rem;
-    padding: 7px 14px;
-    bottom: 15px;
-  }
-}
-
-@media (max-width: 425px) {
-  .banner picture,
-  .banner picture img {
-    border-radius: 25px;
-  }
-
-  .banner picture img{
-    height: 200px;
   }
 }
